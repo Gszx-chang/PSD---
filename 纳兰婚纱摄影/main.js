@@ -18,21 +18,21 @@ function gettop(){
 
 
 
-	var area = document.getElementById("portrait-con");
-	var speed = 50;
-	area.scrollLeft = 0;
-	function conmove() {
-		if (area.scrollLeft >= 655) {
-			area.scrollLeft = 0;
-		} else {
-			area.scrollLeft++;
-		}
+var area = document.getElementById("portrait-con");
+var speed = 50;
+area.scrollLeft = 0;
+function conmove() {
+	if (area.scrollLeft >= 655) {
+		area.scrollLeft = 0;
+	} else {
+		area.scrollLeft++;
 	}
-	var myScroll = setInterval("conmove()", speed);
-	area.onmouseover = function() {
-		clearInterval(myScroll)
-	}
-	area.onmouseout = function() {
-		myScroll = setInterval("conmove()", speed)
-	}
+}
+var myScroll = setInterval("conmove()", speed);
+area.onmouseover = function() {
+	clearInterval(myScroll)
+}
+area.onmouseout = function() {
+	myScroll = setInterval("conmove()", speed)
+}
 
