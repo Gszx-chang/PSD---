@@ -5,8 +5,6 @@
 	<meta name="Keywords" content="纳兰,婚纱,摄影">
 	<title>纳兰婚纱摄影</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
-	<script type="text/javascript" src="main.js"></script>
-    <script type="text/javascript" src="jquery-1.12.4.min.js"></script>
 </head>
 <body>
 	<div class="top">
@@ -263,30 +261,10 @@
 		<div>在线客服<img src="image/psd190602_13.png"></div>
 		<span onClick="gettop()">返回顶部<br>︿</span>
 	</div>
+
+
+<script type="text/javascript" src="main.js"></script>
     
-<script type="text/javascript">
-
-	var area = document.getElementById("portrait-con");
-	var speed = 50;
-	area.scrollLeft = 0;
-	function conmove() {
-		if (area.scrollLeft >= 655) {
-			area.scrollLeft = 0;
-		} else {
-			area.scrollLeft++;
-		}
-	}
-	var myScroll = setInterval("conmove()", speed);
-	area.onmouseover = function() {
-		clearInterval(myScroll)
-	}
-	area.onmouseout = function() {
-		myScroll = setInterval("conmove()", speed)
-	}
-
-</script>
-
-
 </body>
 </html>
 
