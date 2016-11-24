@@ -628,8 +628,6 @@ footer{
 .weixin{
 	position: absolute;
 	width: 131px;
-	right: 10px;
-	top: 125px;
 	z-index: 999;
 	padding-top: 103px;
 	font: 16px "微软雅黑";
@@ -681,10 +679,3 @@ footer{
 }
 
 
-
-
-
-
-
-
-rgb(247,92,87)  在线客服
